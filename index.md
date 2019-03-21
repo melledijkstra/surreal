@@ -156,4 +156,8 @@ math should get its own line like so:
 $$I = \int \rho R^{2} dV$$
 
 And note that you can backslash-escape any punctuation characters
+<<<<<<< HEAD
 which you wish to be displayed literally, ex.: \`foo\`, \*bar\*, etc.
+=======
+which you wish to be displayed literally, ex.: \`foo\`, \*bar\*, etc.
+>>>>>>> d899a2622f88c3aeaf9e27a033ff455bd711139d
