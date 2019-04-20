@@ -1,0 +1,13 @@
+/* import jekyll theme */
+@import "{{ site.theme }}";
+
+.wrapper {
+	max-width: 1000px;
+	
+}
+
+section {
+	max-width: auto;
+	padding: auto;
+	margin-top: 0px;
+}
