@@ -1,5 +1,9 @@
-/* import jekyll theme */
+---
+---
+
 @import "{{ site.theme }}";
+
+/* ^^ import jekyll theme ^^ */
 
 .wrapper {
 	max-width: 1000px;
