@@ -5,6 +5,10 @@
 
 /* ^^ import jekyll theme ^^ */
 
+p {
+	font-size: 22px;
+}
+
 .wrapper {
 	max-width: 1200px;
 }
@@ -17,5 +21,6 @@ section {
 
 .pure-img {
 	cursor: pointer;
-	margin: 3px;
+	box-sizing: border-box;
+	padding: 5px;
 }
