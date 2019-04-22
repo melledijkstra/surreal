@@ -1,8 +1,6 @@
 
-console.log('working');
-
 $(window).on("load", function() {
-	console.log('loaded');
+	Intense(document.querySelectorAll('.pure-img'));
 	$(".pure-img").each(function() {
 		var _this = $(this);
 		EXIF.getData(this, function() {
