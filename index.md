@@ -14,26 +14,40 @@ Assignments
 
 ## 1st Exercise Topic: "Movement and Depth of Field"
 
-1. Movement:
+1. Movement
 
-   1. Frozen Movement
+   <div class="pure-g">
+    <div class="pure-u-1-3">
+           <h6>1.1 Frozen Movement</h6>
+       </div>
+    <div class="pure-u-1-3">
+           <h6>1.2 Captured Movement</h6>
+    </div>
+       <div class="pure-u-1-3">
+           <h6>1.3 Panning</h6>
+           <div class="pure-g">
+                <div class="pure-u-1-3"><img class="pre-img" src="photos/IMG_0103.JPG" /></div>
+                <div class="pure-u-1-3"><img class="pure-img" src="photos/IMG_0086.JPG" /></div>
+             <div class="pure-u-1-3"><img class="pure-img" src="photos/IMG_0081.JPG" /></div>
+            </div>
+       </div>
+   </div>
+   
+2. Depth of Field
 
-      1. Captured Movement
-      2. Panning
-
-   2. Depth of Field
-
-      1. Small Depth of Field
-         2.1a First plane focused / background blurry
-         2.1b First plane blurry / background focused
-         2.1c First and last planes blurry / middle plane focused
-         2.2 All planes focused
-
-   3. <div class="pure-g">
-          <div class="pure-u-1-3"><img class="pre-img" src="photos/IMG_0103.JPG" /></div>
-          <div class="pure-u-1-3"><img class="pure-img" src="photos/IMG_0086.JPG" /></div>
-          <div class="pure-u-1-3"><img class="pure-img" src="photos/IMG_0081.JPG" /></div>
-      </div>
+   <div class="pure-g">
+       <div class="pure-u-1-2">
+           <h6>2.1 Small Depth of Field</h6>
+           <div class="pure-g">
+               <div class="pure-u-1-3">2.1a</div>
+               <div class="pure-u-1-3">2.1b</div>
+               <div class="pure-u-1-3">2.1c</div>
+           </div>
+       </div>
+       <div class="pure-u-1-2">
+           <h6>2.2 All planes focused</h6>
+       </div>
+   </div>
 
 
 ## 2nd Exercise Topic: "Light and Shooting Angle"
