@@ -3,7 +3,7 @@ $(window).on("load", function() {
 	Intense(document.querySelectorAll('.pure-img'));
 	$(".pure-img").each(function() {
 		var _this = $(this);
-		if(_this)[0].hasAttribute("no-exif")) return;
+		if(_this[0].hasAttribute("no-exif")) return;
 		EXIF.getData(this, function() {
 			var all = EXIF.getAllTags(this);
 			var ISO = EXIF.getTag(this, "ISOSpeedRatings");
