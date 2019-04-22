@@ -4,11 +4,11 @@ Assignments
 ## Introduction
 
 <div class="pure-g">
-    <div class="pure-1-2">
+    <div class="pure-u-1-2">
     	<img class="pure-img" src="photos/process-ideas.jpg" data-caption="Writing down ideas..." />
     </div>
-    <div class="pure-1-2">
-    	<p>Basically the idea was to make photographs which are a little **out of place**. Meaning that at first sight (the first second you see the photograph) the picture looks normal, but actually something is very **strange** or **surreal**. On the left is a picture of the brainstorm for the topic.</p>
+    <div class="pure-u-1-2">
+    	<p>Basically the idea was to make photographs which are a little <b>out of place</b>. Meaning that at first sight (the first second you see the photograph) the picture looks normal, but actually something is very <b>strange</b> or <b>surreal</b>. On the left is a picture of the brainstorm for the topic.</p>
     </div>
 </div>
 
