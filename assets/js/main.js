@@ -12,4 +12,6 @@ $(window).on("load", function() {
 			_this.parent().append("<div>ISO: "+ISO+" | exposure: "+expTime.numerator+"/"+expTime.denominator+" ("+expTime+") | f/"+aperture+"</div>");
 		});
 	});
+	
+	$(".cocoen").cocoen();
 });
