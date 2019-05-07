@@ -14,6 +14,7 @@ $(window).on("load", function() {
 			var expTime = EXIF.getTag(this, "ExposureTime");
 			var aperture = EXIF.getTag(this, "FNumber");
 			_this.parent().append("<div>ISO: "+ISO+" | exposure: "+expTime.numerator+"/"+expTime.denominator+" ("+expTime+") | f/"+aperture+"</div>");
+			_this.data("caption", "ISO: "+ISO+" | exposure: "+expTime.numerator+"/"+expTime.denominator+" ("+expTime+") | f/"+aperture);
 		});
 	});
 });
