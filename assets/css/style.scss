@@ -5,6 +5,10 @@
 
 /* ^^ import jekyll theme ^^ */
 
+h1, h2, h3 {
+	text-align: center;
+}
+
 p {
 	font-size: 22px;
 }
@@ -23,4 +27,14 @@ section {
 	cursor: pointer;
 	box-sizing: border-box;
 	padding: 5px;
+}
+
+.padding {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+section {
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
