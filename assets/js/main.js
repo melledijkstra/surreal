@@ -13,7 +13,7 @@ $(window).on("load", function() {
 			var ISO = EXIF.getTag(this, "ISOSpeedRatings");
 			var expTime = EXIF.getTag(this, "ExposureTime");
 			var aperture = EXIF.getTag(this, "FNumber");
-			_this.parent().append("<div>ISO: "+ISO+" | exposure: "+expTime.numerator+"/"+expTime.denominator+" | f/"+aperture+"</div>");
+			_this.parent().append("<div class='exif-info'>ISO: "+ISO+" | exposure: "+expTime.numerator+"/"+expTime.denominator+" | f/"+aperture+"</div>");
 			_this.data("caption", "ISO: "+ISO+" | exposure: "+expTime.numerator+"/"+expTime.denominator+" | f/"+aperture);
 		});
 	});
