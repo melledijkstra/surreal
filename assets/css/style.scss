@@ -15,10 +15,6 @@ p {
 	font-size: 22px;
 }
 
-img {
-	box-shadow: 2px 0 10px black;
-}
-
 .wrapper {
 	max-width: 1200px;
 }
@@ -30,23 +26,23 @@ img {
 }
 
 .l-box {
-	padding: 0 5px;
+	padding: 0 3px;
 }
 
 section {
 	max-width: initial;
 	padding: auto;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-top: 10px !important;
+	margin-bottom: 10px !important;
 }
 
 .pure-img {
 	cursor: pointer;
-	box-shadow: 3px 0 3px #ededed;
+	box-shadow: 0 0 15px black;
 }
 
 .exif-info {
-	padding: 0 5px;
+	margin: 3px;
 	font-size: 12px;
 }
 
