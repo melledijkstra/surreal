@@ -7,12 +7,30 @@
 
 h1, h2, h3, h4, h5 {
 	text-align: center;
-	margin-top: 5px;
-	margin-bottom: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+h1 {
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 27px;
+	margin: 20px 0;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+h4 {
+	font-size: 20px;
 }
 
 p {
-	font-size: 22px;
+	font-size: 20px;
 }
 
 .wrapper {
@@ -31,14 +49,12 @@ p {
 
 section {
 	max-width: initial;
-	padding: auto;
-	margin-top: 10px !important;
-	margin-bottom: 10px !important;
+	padding: 0 !important;
 }
 
 .pure-img {
 	cursor: pointer;
-	box-shadow: 0 0 15px black;
+	box-shadow: 0 0 7px black;
 }
 
 .exif-info {
