@@ -68,7 +68,8 @@ section {
 	font-size: 10px;
 }
 
-section.portfolio .pure-img {
+section.portfolio .pure-u-1-4 .pure-img,
+section.portfolio .pure-u-1-2 .pure-img {
     height: 396px;
     width: auto;
 }
