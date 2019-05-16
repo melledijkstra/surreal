@@ -6,6 +6,8 @@ $(window).on("load", function() {
 	
 	// this can take some time!
 	$(".pure-img").each(function() {
+		// disable auto retrieve of exif data
+		return;
 		var _this = $(this);
 		if(_this[0].hasAttribute("no-exif")) return;
 		EXIF.getData(this, function() {
@@ -19,7 +21,7 @@ $(window).on("load", function() {
 			} else {
 				_this.parent().append(info);
 			}
-			_this.data("caption", "ISO: "+ISO+" | exposure: "+expTime.numerator+"/"+expTime.denominator+" | f/"+aperture);
+			//_this.data("caption", "ISO: "+ISO+" | exposure: "+expTime.numerator+"/"+expTime.denominator+" | f/"+aperture);
 		});
 	});
 });
